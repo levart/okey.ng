@@ -1,0 +1,575 @@
+<owl-carousel [options]="{navigation: true, pagination: false, rewindNav : false}">
+       <div *ngFor="let item of items1">
+         <p>{{ item }}</p>
+       </div>
+    </owl-carousel>
+<div class="collapse search-block" id="collapseExample">
+  <div class="well-default">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for...">
+          <span class="input-group-btn">
+          <button class="btn btn-default" type="button">Go!</button>
+          </span> </div>
+        <!-- /input-group --> 
+      </div>
+      <!-- /.col-lg-6 --> 
+    </div>
+  </div>
+</div>
+<div class="navigation"><!-- navigation -->
+  <div class="top-bar"><!-- top bar -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 welcome-msg">Welcome to financial advisor </div>
+        <div class="col-md-6 top-bar-links"><!-- top bar links -->
+          <ul class="nospace listnone navbar-right">
+            <li>Need help call : <strong> 123 456 789</strong></li>
+            <li> <a href="#">FREE CONSULTATION</a></li>
+            <li> <a  role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> <i class="fa fa-search"> </i> </a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"> </i></a>
+              <ul class="dropdown-menu">
+                <li><a href="#" title="Case Study"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                <li><a href="#" title="Case Study Detail"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                <li><a href="#" title="Case Study Detail"><i class="fa fa-linkedin-square"></i> Linked In</a></li>
+                <li><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- top bar links --> 
+      </div>
+    </div>
+  </div>
+  <!-- /.top bar -->
+  
+    <nav class="navbar navbar-default">
+      <div class="container"> 
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a> </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="fa fa-angle-down"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="index-2.html" title="Home page 2">Home page 2</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="fa fa-angle-down"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="service-icon-listing.html" title="Service Icon Listing
+                ">Service Icon Listing</a></li>
+                <li><a href="service-image-listing.html" title="Service Thumb Listing
+                ">Service Thumb Listing</a></li>
+                <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Service With Sidebar</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="service-investment.html" title="Investment Planning">Investment Planning</a></li>
+                    <li><a href="service-financial-management.html" title="Financial Planing">Financial Planing</a></li>
+                    <li><a href="service-tax-planning.html" title="Tax Planning">Tax Planning</a></li>
+                    <li><a href="service-retirement.html" title="Retirement">Retirement</a></li>
+                    <li><a href="service-estate-planning.html" title="Estate Planning">Estate Planning</a></li>
+                    <li><a href="service-life-events.html" title="Life Events">Life Events</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Service Full Width</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="single-financial-management.html" title="Financial Management">Financial Management</a></li>
+                    <li><a href="single-estate-planning.html" title="Estate Planning">Estate Planning</a></li>
+                    <li><a href="single-retirement-planning.html" title="Retirement Planning">Retirement Planning</a></li>
+                    <li><a href="single-investment-management.html" title="Investment Management">Investment Management</a></li>
+                    <li><a href="single-tax-planning.html" title="Tax Planning">Tax Planning</a></li>
+                    <li><a href="single-life-events.html" title="Life Events">Life Events</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Case study <b class="fa fa-angle-down"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="case-study.html" title="Case Study">Case Study</a></li>
+                <li><a href="case-study-v2.html" title="Case Study v2">Case Study v2</a></li>
+                <li><a href="case-study-filterable.html" title="Filterable Case study">Case Study Filterable 
+                <span class="badge">NEW</span></a></li>
+                <li><a href="case-study-details.html" title="Case Study Detail">Case Study Detail</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="fa fa-angle-down"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="about-us.html" title="About Us">About Us</a></li>
+                <li><a href="core-values.html" title="Core Value">Core Value</a></li>
+                <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Advisor</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="advisor-listing.html" title="Advisor">Advisor</a></li>
+                    <li><a href="advisor-details.html" title="Advisor Detail">Advisor Detail</a></li>
+                  </ul>
+                </li>
+                <li><a href="annual-report.html" title="Annual Reports">Annual Reports</a></li>
+                <li><a href="quarterly-report.html" title="Quarterly Reports">Quarterly Reports</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">News <b class="fa fa-angle-down"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="blog.html" title="Blog">Blog Regular</a></li>
+                <li><a href="blog-detail.html" title="Blog Details">Blog Details</a></li>
+                <li><a href="blog-masonary.html" title="Blog Masonary Template">Blog Masonary
+                <span class="badge">NEW</span></a></li>
+                 <li><a href="blog-left-sidebar.html" title="Blog Left Side Template">Blog Left Side
+                <span class="badge">NEW</span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <b class="fa fa-angle-down"></b></a>
+              <ul class="dropdown-menu">
+              <li><a href="gallery-popup.html" title="Gallery Popup Template">Gallery Popup <span class="badge">NEW</span></a></li>
+                <li><a href="consultation-form.html" title="Consultation Form">Consultation Form</a></li>
+                <li><a href="pricing-table.html" title="Fees Structure">Fees Structure</a></li>
+                <li><a href="faq.html" title="FAQ">FAQ</a></li>
+                <li><a href="newsletter-popup.html" title="Newsletter Template">Newsletter Design <span class="badge">NEW</span></a></li>
+                <li><a href="404-error.html" title="404 Error">404 Error</a></li>
+                <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Shortcodes</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="shortcodes-accordions.html" title="Accordions">Accordions</a></li>
+                    <li><a href="shortcodes-alerts.html" title="Alerts">Alerts</a></li>
+                    <li><a href="shortcodes-tabs.html" title="Tabs">Tabs</a></li>
+                    <li><a href="shortcodes-columns.html" title="Columns">Columns</a></li>
+                    <li><a href="shortcodes-button.html" title="Buttons">Buttons</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="contact-us.html" title="Contact us">Contact us</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse --> 
+      </div>
+      <!-- /.container-fluid --> 
+    </nav>
+  
+</div>
+<!-- /.navigation --> 
+<!-- /.template header -->
+<div class="slider"><!-- slider -->
+  <div class="item">
+    <div class="slider-pic"><img src="assets/images/slider-1.jpg" alt=""></div>
+    <div class="container">
+      <div class="slider-caption"><!-- slider caption -->
+        <h1 class="slider-title">Young financial advisors boost business</h1>
+        <p class="slider-content">Our young financial advisor help you to boost your business to next level and give advice for increase your profit to high level. </p>
+        <a href="service-image-listing.html" class="btn btn-default btn-lg">View Services</a> 
+        <a href="#" class="btn btn-outline"> Buy Template</a>
+        </div>
+      <!-- /.slider caption --> 
+    </div>
+  </div>
+  <div class="item"> <img src="assets/images/slider-2.jpg" alt="">
+    <div class="container">
+      <div class="slider-caption"><!-- slider caption -->
+        <h1 class="slider-title">Giving a detailed insight of your future goals.</h1>
+        <p class="slider-content">Donec commodo ultrices orci, id molestie ante cursus sed. Curabitur rutrum pellentesque mi, eu tempus mi sagittis vel. </p>
+        <a href="advisor-listing.html" class="btn btn-default btn-lg">Meet The Advisor</a> </div>
+      <!-- /.slider caption --> 
+    </div>
+  </div>
+  <div class="item"> <img src="assets/images/slider-3.jpg" alt="">
+    <div class="container">
+      <div class="slider-caption"><!-- slider caption -->
+        <h1 class="slider-title">Values and client are of importance to us. </h1>
+        <p class="slider-content">Nam vehicula lorem vel ipsum rhoncus, et bibendum tellus mattis. Suspendisse maximus pulvinar erat a ultricies.</p>
+        <a href="consultation-form.html" class="btn btn-default btn-lg">Get Free Consultations</a> 
+
+        </div>
+      <!-- /.slider caption --> 
+    </div>
+  </div>
+</div>
+<!-- /.slider -->
+<div class="call-to-action margin-top-less"><!-- call to action -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h1 class="call-to-action-title">Our advice is dedicated to the prosperity of our clients!</h1>
+      </div>
+      <div class="col-md-3"><a href="#" class="btn btn-secondary btn-lg">Get consultation now</a></div>
+    </div>
+  </div>
+</div>
+<!-- /.call to action -->
+<div class="section-space"><!-- section space -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-title"><!-- section title -->
+        <h1 class="heading-line">Financial advisor services </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscin abitsa ut ipsum accumsan tincidunt.</p>
+      </div>
+      <!-- /.section title --> 
+    </div>
+    <div class="row">
+      <div class="service-section"><!-- service section -->
+        <div class="services">
+          <div class="item">
+            <div class="col-md-12">
+              <div class="service-img-block"><!-- service img block -->
+                <div class="service-img zoom-pic"> <a href="service-investment.html"><img src="images/service-1.jpg" class="img-responsive" alt=""></a> </div>
+                <div class="service-desc"><!-- service desc -->
+                  <h2><a href="service-investment.html" class="service-title" title="Investment Planning">Investment Planning</a></h2>
+                  <p>Nunc rhoncus leo quis odio tristique lobortis morbi dui nisl ligula viverra efficitur faucibus nisi.</p>
+                  <a href="service-investment.html" class="btn-link">Show more</a> </div>
+                <!-- /.service desc --> 
+              </div>
+              <!-- /.service img block --> 
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-md-12">
+              <div class="service-img-block"><!-- service img block -->
+                <div class="service-img zoom-pic"> <a href="service-estate-planning.html"><img src="images/service-2.jpg" class="img-responsive" alt=""></a> </div>
+                <div class="service-desc"><!-- service desc -->
+                  <h2><a href="service-estate-planning.html" class="service-title">Estate Planning</a></h2>
+                  <p>Nunc rhoncus leo quis odio tristique lobortis morbi oncus ligula viverra efficitur faucibus nisi.</p>
+                  <a href="service-estate-planning.html" class="btn-link">Show more</a> </div>
+                <!-- /.service desc --> 
+              </div>
+              <!-- /.service img block --> 
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-md-12">
+              <div class="service-img-block"><!-- service img block -->
+                <div class="service-img zoom-pic"> <a href="service-tax-planning.html"><img src="images/service-3.jpg" class="img-responsive" alt=""></a> </div>
+                <div class="service-desc"><!-- service desc -->
+                  <h2><a href="service-tax-planning.html" class="service-title">Tax Planning</a></h2>
+                  <p>Nunc rhoncus leo quis odio tristique lobortis morrhoncus ligula viverra efficitur faucibus nisi.</p>
+                  <a href="service-tax-planning.html" class="btn-link">Show more</a> </div>
+                <!-- /.service desc --> 
+              </div>
+              <!-- /.service img block --> 
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-md-12">
+              <div class="service-img-block"><!-- service img block -->
+                <div class="service-img"> <a href="service-retirement.html"><img src="images/service-4.jpg" class="img-responsive" alt=""></a> </div>
+                <div class="service-desc"><!-- service desc -->
+                  <h2><a href="service-retirement.html" class="service-title">Retirement Planning</a></h2>
+                  <p>Nunc rhoncus leo quis odio tristique lobortis morrhoncus ligula viverra efficitur faucibus nisi.</p>
+                  <a href="service-retirement.html" class="btn-link">Show more</a> </div>
+                <!-- /.service desc --> 
+              </div>
+              <!-- /.service img block --> 
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-md-12">
+              <div class="service-img-block"><!-- service img block -->
+                <div class="service-img"> <a href="service-life-events.html"><img src="images/service-5.jpg" class="img-responsive" alt=""></a> </div>
+                <div class="service-desc"><!-- service desc -->
+                  <h2><a href="service-life-events.html" class="service-title">Life Events</a></h2>
+                  <p>Nunc rhoncus leo quis odio tristique lobortis morbrhoncus ligula viverra efficitur faucibus nisi.</p>
+                  <a href="service-life-events.html" class="btn-link">Show more</a> </div>
+                <!-- /.service desc --> 
+              </div>
+              <!-- /.service img block --> 
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-md-12">
+              <div class="service-img-block"><!-- service img block -->
+                <div class="service-img"> <a href="service-finance-management.html"><img src="images/service-6.jpg" class="img-responsive" alt=""></a> </div>
+                <div class="service-desc"><!-- service desc -->
+                  <h2><a href="service-finance-management.html" class="service-title">Financial Advice</a></h2>
+                  <p>Nunc rhoncus leo quis odio tristique lobortis moum rhoncus ligula viverra efficitur faucibus nisi.</p>
+                  <a href="service-finance-management.html" class="btn-link">Show more</a> </div>
+                <!-- /.service desc --> 
+              </div>
+              <!-- /.service img block --> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.service section --> 
+    </div>
+  </div>
+</div>
+<!-- /.section space -->
+<div class="why-section-space section-color">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-title"><!-- section title -->
+        <h1>Why choose us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscin abitsa ut ipsum accumsan tincidunt.</p>
+      </div>
+      <!-- /.section title --> 
+    </div>
+    <div class="row">
+      <div class="col-md-4 feature-icon-block text-center"><!-- feature block -->
+        <div class="feature-icon"><img src="images/money-saving.png" alt=""></div>
+        <h2>Trusted</h2>
+        <p>Vestibulum non gravida dui, eu porta sapien. Phasellus luctus ex libero, sit amet rutrum erats mi sit amet risus lacinia sodales.</p>
+      </div>
+      <!-- /.feature block -->
+      <div class="col-md-4 feature-icon-block text-center"> <!-- feature block -->
+        <div class="feature-icon"> <img src="images/mobile-banking.png" alt=""></div>
+        <h2>Mutual Help </h2>
+        <p>Pellentesque tortor dolor, tristique sed sapien sodales, sagittis tincidunt urna. Aenean eleifend et risus sit amet malesuada.</p>
+      </div>
+      <!-- /.feature block -->
+      <div class="col-md-4 feature-icon-block text-center"> <!-- feature block -->
+        <div class="feature-icon"> <img src="images/financial-report.png" alt=""></div>
+        <h2>Inspired</h2>
+        <p>Fusce facilisis, lorem a auctor varius, libero ex bibendum porta mi orci in enim. Phasellus pharetra nunc non convallis ultricies.</p>
+      </div>
+      <!-- /. feature block --> 
+    </div>
+    <div class="row">
+      <div class="col-md-12 about-block"><!-- about block -->
+        <div class="row">
+          <div class="">
+            <div class="col-md-6 btmspace30">
+              <h1>About us</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipiscing elituis quis malesuada massa at sodales nibhuis vitae mi urna. Donec at urna tellus.</p>
+              <p>Lorem ipsum dolor sit atur adipiscin abitsa ut ipsum accumsan tincidurem ipsum dolor sit atur adipiscin abitsa ut ipsum accumsan tincidunt.tincidunt.</p>
+              <a href="#" class="btn btn-default">About us</a> <a href="#" class="btn btn-primary">View history</a> </div>
+            <div class=" col-md-6">
+              <div class="zoom-pic"><img src="images/post-pic-4.jpg" alt="" class="img-responsive"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.about block --> 
+    </div>
+  </div>
+</div>
+<div class="section-space margin-top120">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-title"><!-- section title -->
+        <h1 class="heading-line">Our Advisor</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscin abitsa ut ipsum accumsan tincidunt.</p>
+      </div>
+      <!-- /.section title --> 
+    </div>
+    <div class="row">
+      <div class="col-md-3 advisor-profile"><!-- advisor-profile -->
+        <div class="advisor-pic zoom-pic"><a href="#"><img src="images/advisor-1.jpg" alt="" class="img-responsive"></a></div>
+        <div class="advisor-info">
+          <div class="advisro-desc">
+            <h3><a href="advisor-details.html" class="advisor-title">David Martin</a></h3>
+            <div class="advisor-meta">Director of Advisory Services </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.advisor-profile -->
+      <div class="col-md-3 advisor-profile"><!-- advisor-profile -->
+        <div class="advisor-pic zoom-pic"><a href="#"><img src="images/advisor-2.jpg" alt="" class="img-responsive"></a></div>
+        <div class="advisor-info">
+          <div class="advisro-desc">
+            <h3><a href="advisor-details.html" class="advisor-title">Adam Smith</a></h3>
+            <div class="advisor-meta">Financial Planner</div>
+          </div>
+        </div>
+      </div>
+      <!-- /.advisor-profile -->
+      <div class="col-md-3 advisor-profile"><!-- advisor-profile -->
+        <div class="advisor-pic zoom-pic"><a href="#"><img src="images/advisor-3.jpg" alt="" class="img-responsive"></a> </div>
+        <div class="advisor-info">
+          <div class="advisro-desc">
+            <h3><a href="advisor-details.html" class="advisor-title">Jhone Barra</a></h3>
+            <div class="advisor-meta">Technical Research</div>
+          </div>
+        </div>
+      </div>
+      <!-- /.advisor-profile -->
+      <div class="col-md-3 advisor-profile"><!-- advisor-profile -->
+        <div class="advisor-pic zoom-pic"><a href="#"><img src="images/advisor-4.jpg" alt="" class="img-responsive"></a></div>
+        <div class="advisor-info">
+          <div class="advisro-desc">
+            <h3><a href="advisor-details.html" class="advisor-title">Madrin Saylor</a></h3>
+            <div class="advisor-meta">Partner - Business Development</div>
+          </div>
+        </div>
+      </div>
+      <!-- /.advisor-profile --> 
+    </div>
+  </div>
+</div>
+<div class="section-space section-color">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-title"><!-- section title -->
+        <h1>Latest insight news</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscin abitsa ut ipsum accumsan tincidunt.</p>
+      </div>
+      <!-- /.section title --> 
+    </div>
+    <div class="row">
+      <div class="col-md-4 post-block"><!-- post block -->
+        <div class="post-pic zoom-pic"><a href="blog-detail.html"><img src="images/post-pic-1.jpg" alt="" class="img-responsive"></a></div>
+        <div class="post-content">
+          <h2><a href="blog-detail.html" class="post-title">Heading Title of Tips</a> </h2>
+          <p>Nunc rhoncus leo quis odio tristique lobortis morbi dui nisl pretium rhoncus ligula viverra efficitur faucibus nisi. </p>
+          <a href="blog-detail.html" class="btn-link">Read more</a> </div>
+        <div class="post-meta"> <span class="meta-date"><i class="fa fa-calendar-check-o"></i> 05 may 2016</span> <span class="meta-comments">10 <a href="#" class="meta-link"> comments</a></span> </div>
+      </div>
+      <!-- /.post block -->
+      <div class="col-md-4 post-block"><!-- post block -->
+        <div class="post-pic zoom-pic"><a href="blog-detail.html"><img src="images/post-pic-2.jpg" alt="" class="img-responsive"></a></div>
+        <div class="post-content">
+          <h2><a href="blog-detail.html" class="post-title">Heading Title of Tips </a> </h2>
+          <p>Donec non porttitor neque. Quisque at est sit amet est porttitor pellentesque vitae et sapien. </p>
+          <a href="blog-detail.html" class="btn-link">Read more</a> </div>
+        <div class="post-meta"> <span class="meta-date"><i class="fa fa-calendar-check-o"></i> 05 may 2016</span> <span class="meta-comments">10 <a href="#" class="meta-link"> comments</a></span> </div>
+      </div>
+      <!-- /.post block -->
+      <div class="col-md-4 post-block"><!-- post block -->
+        <div class="post-pic zoom-pic"><a href="blog-detail.html"><img src="images/post-pic-4.jpg" alt="" class="img-responsive"></a></div>
+        <div class="post-content">
+          <h2><a href="blog-detail.html" class="post-title">Heading Title of Tips</a> </h2>
+          <p>Vestibulum lectus odio, pellentesque eget ultrices et, condimentum vitae ante nean finibus semper odio eu luctus. </p>
+          <a href="blog-detail.html" class="btn-link">Read more</a> </div>
+        <div class="post-meta"> <span class="meta-date"><i class="fa fa-calendar-check-o"></i> 05 may 2016</span> <span class="meta-comments">10 <a href="#" class="meta-link"> comments</a></span> </div>
+      </div>
+      <!-- /.post block --> 
+    </div>
+  </div>
+</div>
+<div class="section-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-title"><!-- section title -->
+        <h1>Quotes &amp; testimonials</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscin abitsa ut ipsum accumsan tincidunt.</p>
+      </div>
+      <!-- /.section title --> 
+    </div>
+    <div class="testimonial-section"><!-- testimonial-section -->
+      <div class="owl-carousel">
+        <div class="item">
+          <div class="well-default">
+            <div class="testimonial-block">
+              <div class="testimonial-quote"> <i class="fa fa-quote-left"></i> </div>
+              <div class="testimonial-desc">“I just don't know how to describe your services. you are extraordinary! I am quite happy with them! Just keep up going this way!”</div>
+              <div class="testimonial-info">
+                <h3 class="testimonial-name">Ryder Lothian</h3>
+                <span class="testimonial-meta">Financial Planning</span> </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="well-default">
+            <div class="testimonial-block">
+              <div class="testimonial-quote"> <i class="fa  fa-quote-left"></i> </div>
+              <div class="testimonial-desc">“In short meetings with Smith managed to find the solution personally catered to my situation and expectations. Punctual, well informed and very reliable.”</div>
+              <div class="testimonial-info">
+                <h3 class="testimonial-name">Smith Lothian</h3>
+                <span class="testimonial-meta">Financial Planning</span> </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="well-default">
+            <div class="testimonial-block">
+              <div class="testimonial-quote"> <i class="fa  fa-quote-left"></i> </div>
+              <div class="testimonial-desc">"Proin sollicitudin non sem vel secenas nec magna odio urabitur is, in aliquet urna varius sedmperdiet tempus metus, ac fermentum mauris ornare non."</div>
+              <div class="testimonial-info">
+                <h3 class="testimonial-name">Ryder Lothian</h3>
+                <span class="testimonial-meta">Financial Planning</span> </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="well-default">
+            <div class="testimonial-block">
+              <div class="testimonial-quote"> <i class="fa  fa-quote-left"></i> </div>
+              <div class="testimonial-desc">"Proin sollicitudin non sem vel secenas nec magna odio urabitur is, in aliquet urna varius sedmperdiet tempus metus, ac fermentum mauris ornare non."</div>
+              <div class="testimonial-info">
+                <h3 class="testimonial-name">Ryder Lothian</h3>
+                <span class="testimonial-meta">Financial Planning</span> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.testimonial-section --> 
+  </div>
+</div>
+<div class="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h1>Our advice is dedicated to the prosperity of our clients!</h1>
+      </div>
+      <div class="col-md-3"><a href="#" class="btn btn-secondary btn-lg">Get consultation now</a></div>
+    </div>
+  </div>
+</div>
+<div class="footer-section"><!-- footer section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 footer-widget"> <!-- footer widget --> 
+        <img src="images/logo.png" alt="">
+        <p>Financial Advisor is a leading advise company. Our trademark is financial services that combine a high degree of professional with a deep understanding of our clients’ needs.</p>
+        <p>Lacus donec aliquam sodales orci eget convallis mauris tempor id leo massa euismod id nisl eu molestie erat.</p>
+      </div>
+      <!-- /.footer widget -->
+      <div class="col-md-3 footer-widget"><!-- footer widget -->
+        <h3> Contact us</h3>
+        <ul class="listnone contact">
+          <li><i class="fa fa-map-marker"></i>
+            <address>
+            Street Name &amp; Number, Town, Postcode/Zip
+            </address>
+          </li>
+          <li><i class="fa fa-phone"></i> +00 (123) 456 7890<br>
+            +00 (123) 456 7890</li>
+          <li><i class="fa fa-envelope-o"></i> info@financialadvisor.com</li>
+        </ul>
+      </div>
+      <div class="col-md-2 footer-widget"><!-- footer widget -->
+        <h3> Services</h3>
+        <ul class="listnone">
+          <li><a href="service-investment.html" title="Investment Planning">Investment Planning</a></li>
+          <li><a href="service-financial-management.html" title="Financial Planing">Financial Planing</a></li>
+          <li><a href="service-tax-planning.html" title="Tax Planning">Tax Planning</a></li>
+          <li><a href="service-retirement.html" title="Retirement">Retirement</a></li>
+          <li><a href="service-estate-planning.html" title="Estate Planning">Estate Planning</a></li>
+          <li><a href="service-life-events.html" title="Life Events">Life Events</a></li>
+        </ul>
+      </div>
+      <!-- /.footer widget -->
+      <div class="col-md-3 footer-widget"><!-- footer widget -->
+        <h3>Free Financial Tips &amp; Hints</h3>
+        <p>Would you like to receive an award winning <strong>FREE quarterly financial tips </strong> and hints newsletter? </p>
+        <form class="newsletter-widget" action="newsletter.php" method="post">
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <label for="newsletteremail" class="sr-only">Email address</label>
+              <input type="email" class="form-control" id="newsletteremail" name="newsletteremail" placeholder="Email Address" required>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <!-- /.footer widget --> 
+    </div>
+    <div class="row">
+      <div class="col-md-12 ft-social-widget footer-widget">
+        <h3>We are social</h3>
+        <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-pinterest"></i></a> <a href="#"><i class="fa fa-flickr"></i></a> <a href="#"><i class="fa fa-instagram"></i></a> </div>
+    </div>
+  </div>
+</div>
+<div class="tiny-footer"><!-- tiny footer -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12">© 2016 Insight Financial Advisor. All rights reserved.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.tiny footer --> 
+<!-- /.footer section --> 
